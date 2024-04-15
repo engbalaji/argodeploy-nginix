@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: nginx
-  namespace: argo-dev
+  namespace: argocd-dev
 spec:
   type: LoadBalancer
   selector:
